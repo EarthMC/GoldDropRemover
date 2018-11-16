@@ -1,3 +1,3 @@
-# ZombiePigmanDropRemover
+# GoldDropRemover
 
-A Minecraft Spigot plugin which makes zombie pigmen not drop anything.
+A Minecraft Spigot plugin which makes mobs not drop any gold.
