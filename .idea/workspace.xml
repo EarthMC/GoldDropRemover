@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="327fcecc-c5d2-4eee-b090-ad9a32d7d2a9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ZombiePigmanDropRemover.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GoldDropRemover.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_13_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_13_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karlofduty/ZombiePigmanDropRemover/EntityDeathHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/EntityDeathHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karlofduty/ZombiePigmanDropRemover/ZombiePigmanDropRemover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/GoldDropRemover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/GoldDropRemover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/GoldDropRemover.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,6 +47,24 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1849159690">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -69,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/GoldDropRemover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="221">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -78,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/EntityDeathHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="510">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/EntityDeathHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/GoldDropRemover.java" />
       </list>
     </option>
   </component>
@@ -133,11 +145,22 @@
           <item name="GoldDropRemover" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="GoldDropRemover" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="GoldDropRemover" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="493" />
     <option name="y" value="-30" />
     <option name="width" value="1400" />
@@ -151,44 +174,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ZombiePigmanDropRemover" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZombiePigmanDropRemover" type="462c0819:PsiDirectoryNode" />
+              <item name="GoldDropRemover" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoldDropRemover" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ZombiePigmanDropRemover" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZombiePigmanDropRemover" type="462c0819:PsiDirectoryNode" />
+              <item name="GoldDropRemover" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoldDropRemover" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ZombiePigmanDropRemover" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZombiePigmanDropRemover" type="462c0819:PsiDirectoryNode" />
+              <item name="GoldDropRemover" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoldDropRemover" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ZombiePigmanDropRemover" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZombiePigmanDropRemover" type="462c0819:PsiDirectoryNode" />
+              <item name="GoldDropRemover" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoldDropRemover" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ZombiePigmanDropRemover" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZombiePigmanDropRemover" type="462c0819:PsiDirectoryNode" />
+              <item name="GoldDropRemover" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoldDropRemover" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="GoldDropRemover" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ZombiePigmanDropRemover" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZombiePigmanDropRemover" type="462c0819:PsiDirectoryNode" />
+              <item name="GoldDropRemover" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoldDropRemover" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -202,7 +225,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542315800907" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542365709438" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -264,17 +287,18 @@
       <workItem from="1540737814955" duration="19000" />
       <workItem from="1542314154244" duration="2235000" />
       <workItem from="1542363161691" duration="10000" />
+      <workItem from="1542363421312" duration="1856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5906000" />
+    <option name="totallyTimeSpent" value="7762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16255961" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16375199" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -283,7 +307,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289777" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39937598" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -300,7 +324,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="8" visible="true" weight="0.16653419" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.16653419" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +342,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -327,22 +358,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/GoldDropRemover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        <state relative-caret-position="221">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/EntityDeathHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -13,8 +13,6 @@ public class GoldDropRemover extends JavaPlugin
     public void onEnable()
     {
         instance = this;
-        saveDefaultConfig();
-        config = this.getConfig();
         getServer().getPluginManager().registerEvents(new EntityDeathHandler(), this);
     }
 
