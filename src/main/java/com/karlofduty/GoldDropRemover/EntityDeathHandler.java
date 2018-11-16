@@ -15,7 +15,7 @@ public class EntityDeathHandler implements Listener
     @EventHandler
     public void onDeath(EntityDeathEvent event)
     {
-        if(!(event.getEntity() instanceof PigZombie) || event.getEntity() instanceof Drowned)
+        if(!(event.getEntity() instanceof PigZombie || event.getEntity() instanceof Drowned))
         {
             return;
         }
