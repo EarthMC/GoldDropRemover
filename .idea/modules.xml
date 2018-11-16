@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ZombiePigmanDropRemover.iml" filepath="$PROJECT_DIR$/.idea/ZombiePigmanDropRemover.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/GoldDropRemover.iml" filepath="$PROJECT_DIR$/.idea/GoldDropRemover.iml" />
     </modules>
   </component>
 </project>

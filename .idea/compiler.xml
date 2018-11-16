@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ZombiePigmanDropRemover" />
+        <module name="GoldDropRemover" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ZombiePigmanDropRemover" target="1.8" />
+      <module name="GoldDropRemover" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

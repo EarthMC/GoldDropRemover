@@ -1,5 +1,5 @@
-name: ZombiePigmanDropRemover
-version: 0.1.0
+name: GoldDropRemover
+version: 0.2.0
 author: Karl Essinger (KarlofDuty)
 website: http://karlofduty.com
-main: com.karlofduty.ZombiePigmanDropRemover.ZombiePigmanDropRemover
+main: com.karlofduty.GoldDropRemover.GoldDropRemover

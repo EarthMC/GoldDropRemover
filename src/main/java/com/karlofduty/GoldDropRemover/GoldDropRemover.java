@@ -1,13 +1,13 @@
-package com.karlofduty.ZombiePigmanDropRemover;
+package com.karlofduty.GoldDropRemover;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
-public class ZombiePigmanDropRemover extends JavaPlugin
+public class GoldDropRemover extends JavaPlugin
 {
     public static FileConfiguration config;
-    private static ZombiePigmanDropRemover instance;
+    private static GoldDropRemover instance;
 
     @Override
     public void onEnable()
@@ -24,7 +24,7 @@ public class ZombiePigmanDropRemover extends JavaPlugin
 
     }
 
-    public static ZombiePigmanDropRemover getInstance() {
+    public static GoldDropRemover getInstance() {
         return instance;
     }
 
