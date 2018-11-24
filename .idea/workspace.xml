@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="327fcecc-c5d2-4eee-b090-ad9a32d7d2a9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_13_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_13_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/EntityDeathHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karlofduty/IronDropRemover/EntityDeathHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/GoldDropRemover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karlofduty/IronDropRemover/IronDropRemover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,15 +63,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="60" />
-          <entry key="xml" value="3" />
+          <entry key="dummy" value="15" />
+          <entry key="java" value="105" />
+          <entry key="xml" value="18" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="60" />
-          <entry key="XML" value="3" />
+          <entry key="JAVA" value="105" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="XML" value="18" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
@@ -81,25 +85,25 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/GoldDropRemover.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/karlofduty/IronDropRemover/IronDropRemover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/EntityDeathHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/karlofduty/IronDropRemover/EntityDeathHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="425">
+              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,9 +134,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/karlofduty/ZombiePigmanDropRemover/ZombiePigmanDropRemover.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/karlofduty/ZombiePigmanDropRemover/EntityDeathHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/GoldDropRemover.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/EntityDeathHandler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/EntityDeathHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/karlofduty/IronDropRemover/IronDropRemover.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/karlofduty/IronDropRemover/EntityDeathHandler.java" />
       </list>
     </option>
   </component>
@@ -154,11 +160,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="GoldDropRemover" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="IronDropRemover" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="GoldDropRemover" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="IronDropRemover" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -210,7 +216,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GoldDropRemover" type="462c0819:PsiDirectoryNode" />
+              <item name="IronDropRemover" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoldDropRemover" type="b2602c69:ProjectViewProjectNode" />
@@ -235,7 +241,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542912013865" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543087087233" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -306,18 +312,18 @@
       <workItem from="1542911402183" duration="677000" />
       <workItem from="1543014547014" duration="84000" />
       <workItem from="1543055945080" duration="224000" />
-      <workItem from="1543086208570" duration="616000" />
+      <workItem from="1543086208570" duration="879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14844000" />
+    <option name="totallyTimeSpent" value="15107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.06915739" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17885533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -325,8 +331,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289777" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39937598" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32839313" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39937598" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,21 +377,21 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/GoldDropRemover.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/karlofduty/IronDropRemover/IronDropRemover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karlofduty/GoldDropRemover/EntityDeathHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/karlofduty/IronDropRemover/EntityDeathHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="425">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,13 +1,13 @@
-package com.karlofduty.GoldDropRemover;
+package com.karlofduty.IronDropRemover;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
-public class GoldDropRemover extends JavaPlugin
+public class IronDropRemover extends JavaPlugin
 {
     public static FileConfiguration config;
-    private static GoldDropRemover instance;
+    private static IronDropRemover instance;
 
     @Override
     public void onEnable()
@@ -22,7 +22,7 @@ public class GoldDropRemover extends JavaPlugin
 
     }
 
-    public static GoldDropRemover getInstance() {
+    public static IronDropRemover getInstance() {
         return instance;
     }
 

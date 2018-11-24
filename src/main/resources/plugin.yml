@@ -1,5 +1,5 @@
-name: GoldDropRemover
+name: IronDropRemover
 version: 0.2.2
 author: Karl Essinger (KarlofDuty)
 website: http://karlofduty.com
-main: com.karlofduty.GoldDropRemover.GoldDropRemover
+main: com.karlofduty.IronDropRemover.IronDropRemover
