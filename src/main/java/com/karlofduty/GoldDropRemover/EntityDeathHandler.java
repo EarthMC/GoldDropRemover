@@ -6,7 +6,6 @@ import org.bukkit.entity.PigZombie;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDeathEvent;
-import org.bukkit.inventory.ItemStack;
 
 public class EntityDeathHandler implements Listener
 {
@@ -17,13 +16,15 @@ public class EntityDeathHandler implements Listener
         {
             return;
         }
-        ItemStack goldIngot = new ItemStack(Material.GOLD_INGOT);
-        ItemStack goldNugget = new ItemStack(Material.GOLD_NUGGET);
 
-        while(event.getDrops().remove(goldIngot)){}
-
-        while(event.getDrops().remove(goldNugget)){}
-
-        GoldDropRemover.log("Removed gold drops from entity death");
+        for(int i = 0; i < event.getDrops().size(); i++)
+        {
+            if(event.getDrops().get(i).getType().equals(Material.GOLD_INGOT) || event.getDrops().get(i).getType().equals(Material.GOLD_NUGGET))
+            {
+                event.getDrops().remove(i);
+                i--;
+                GoldDropRemover.log("Removed gold drops from entity death");
+            }
+        }
     }
 }
