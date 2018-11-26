@@ -16,13 +16,14 @@ public class EntityDeathHandler implements Listener
         {
             return;
         }
-        ItemStack ironIngot = new ItemStack(Material.IRON_INGOT);
-        ItemStack ironNugget = new ItemStack(Material.IRON_NUGGET);
-
-        while(event.getDrops().remove(ironIngot)){}
-
-        while(event.getDrops().remove(ironNugget)){}
-
-        IronDropRemover.log("Removed iron drops from entity death");
+        for(int i = 0; i < event.getDrops().size(); i++)
+        {
+            if(event.getDrops().get(i).getType().equals(Material.IRON_INGOT) || event.getDrops().get(i).getType().equals(Material.IRON_NUGGET))
+            {
+                event.getDrops().remove(i);
+                i--;
+                IronDropRemover.log("Removed iron drops from entity death");
+            }
+        }
     }
 }
