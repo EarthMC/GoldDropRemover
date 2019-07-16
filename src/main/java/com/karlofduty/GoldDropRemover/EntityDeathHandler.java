@@ -19,7 +19,7 @@ public class EntityDeathHandler implements Listener
 
         for(int i = 0; i < event.getDrops().size(); i++)
         {
-            if(event.getDrops().get(i).getType().equals(Material.GOLD_INGOT) || event.getDrops().get(i).getType().equals(Material.GOLD_NUGGET))
+            if(event.getDrops().get(i).getType().equals(Material.GOLD_INGOT) || event.getDrops().get(i).getType().equals(Material.GOLD_NUGGET) || event.getDrops().get(i).getType().equals(Material.GOLDEN_SWORD))
             {
                 event.getDrops().remove(i);
                 i--;

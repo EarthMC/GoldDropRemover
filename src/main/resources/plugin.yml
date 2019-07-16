@@ -1,5 +1,7 @@
 name: GoldDropRemover
-version: 1.0.0
+version: ${project.version}
+description: ${project.description}
+api-version: '1.13'
 author: Karl Essinger (KarlofDuty)
 website: http://karlofduty.com
 main: com.karlofduty.GoldDropRemover.GoldDropRemover
