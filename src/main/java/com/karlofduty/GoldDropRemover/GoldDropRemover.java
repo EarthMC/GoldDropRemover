@@ -1,6 +1,4 @@
 package com.karlofduty.GoldDropRemover;
-import org.bukkit.command.ConsoleCommandSender;
-import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
