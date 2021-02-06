@@ -20,7 +20,10 @@ public class EntityDeathHandler implements Listener
             for (int i = 0; i < event.getDrops().size(); i++)
             {
                 if (isGold(event.getDrops().get(i).getType()))
+                {
                     event.getDrops().remove(i);
+                    i--;
+                }
             }
         }
     }
