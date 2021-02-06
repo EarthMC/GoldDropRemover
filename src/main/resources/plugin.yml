@@ -2,6 +2,6 @@ name: GoldDropRemover
 version: ${project.version}
 description: ${project.description}
 api-version: '1.16'
-author: creatorfromhell, KarlofDuty
+author: creatorfromhell, KarlofDuty, Warriorrrr
 website: https://earthmc.net
 main: com.karlofduty.GoldDropRemover.GoldDropRemover
